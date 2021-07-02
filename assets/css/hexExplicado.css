@@ -1,0 +1,67 @@
+h1{
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    background-color: silver;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 3px;
+    border-color: silver;
+    border-style: solid;
+    border-width: 8px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+}
+
+.row, #ficha {
+    margin-top: 2px;
+    margin-left: 5px;
+}
+#segredo {
+    opacity: 0;
+}
+
+
+
+#cenario {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 30px;
+}
+
+/* Style the search box */
+#ficha {
+  opacity:0;
+  width:260px;
+}
+
+#procura {
+    width: 203px;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+  }
+  
+  #lista_pjs {
+    align-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #lista_pjs li a {
+    padding: 12px;
+    text-decoration: none;
+    color: black;
+    display: block
+  }
+  
+  #lista_pjs li a:hover {
+    background-color: #eee;
+  }
