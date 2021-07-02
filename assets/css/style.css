@@ -1,0 +1,121 @@
+/*
+forestgreen = forest 
+sandybrown = farm
+chocolate = montain
+mediumslateblue = city
+mediumseagreen = grassland
+*/
+
+h1{
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    background-color: silver;
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 3px;
+    border-color: silver;
+    border-style: solid;
+    border-width: 8px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+}
+
+/* mapa */
+#mapa {
+    margin-top: 10px;
+    position: relative;
+    margin-left: 2%;
+    background-color: navy;
+    width: 96%;
+    min-width: 1040px;
+    height: 580px;
+    border: goldenrod;
+    border-width: 20px;
+    border-style: solid;
+    overflow: hidden;
+}
+.borda_hex{
+    position: relative;
+    margin-right: 110px;
+    transform: rotate(30deg);
+    z-index: 0;
+}
+.hex {
+    margin-right: 130px;
+    transform: rotate(30deg);
+}
+#borda_inicial{
+    margin-top: -80px ;
+    margin-left: -130px;
+}
+#linha_inicial {
+    margin-top: -250px;
+    margin-left: -120px;
+}
+.borda_impar{
+    margin-left: 58px;
+    margin-top: -140px;
+}
+.linha_impar{
+    margin-left: 67px;
+    margin-top: -250px;
+}
+
+.borda_par{
+    margin-top: -140px;
+    margin-left: -130px;
+}
+.linha_par{
+    margin-left: -120px;
+    margin-top: -250px;
+}
+
+.externo{
+    margin-right: 135px;
+    transform: rotate(30deg);
+}
+
+#linha_externa{
+    margin-left: 70px;
+    margin-top: -890px;
+}
+
+    /*Para terreno.html*/
+  #menuLista {
+    list-style-type: none;
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+    border-radius: 50px;
+    
+  }
+
+  #menuLista li a {
+    padding: 12px;
+    border-radius: 30px;
+    text-decoration: none;
+    margin-bottom: 5px;
+    color: black;
+    display: block;
+    background-color: silver;
+  }
+  
+#menuLista li a.terreno_floresta:hover {
+    background-color: darkgreen;
+    color: white;
+}
+#menuLista li a.terreno_montanha:hover {
+    background-color: chocolate;
+    color: white;
+}
+#menuLista li a.terreno_plano:hover {
+    background-color: mediumseagreen;
+    color: white;
+}
+#menuLista li a.terreno_urbano:hover{
+    background-color: mediumslateblue;
+    color: white;
+}
